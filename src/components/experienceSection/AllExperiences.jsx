@@ -25,7 +25,7 @@ const experiences = [
     responsibilities: [
       "Assisting students in advanced database management concepts.",
       "Guiding students in SQL queries and database optimization.",
-      "Evaluating student assignments and lab sessions.",
+      "Supporting students in advanced database management practice.",
     ],
   },
   {
@@ -48,7 +48,7 @@ const AllExperiences = () => {
       {experiences.map((experience, index) => (
         <div key={index} className="flex items-center">
           <SingleExperience experience={experience} />
-          {index < experiences.length - 1 && ( // Menampilkan panah kecuali di item terakhir
+          {index < experiences.length - 1 && ( 
             <motion.div
               variants={fadeIn("right", 0)}
               initial="hidden"
