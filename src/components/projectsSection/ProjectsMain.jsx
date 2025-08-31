@@ -41,7 +41,7 @@ const projects = [
     year: "July2025",
     align: "right",
     image: "/images/website-img-5.png",
-    link: "https://github.com/wirapradina",
+    link: "https://github.com/sistem-arsip/project-main",
     demoLink: "https://arsip.ppwalisongo.id/",
   },
 ];
