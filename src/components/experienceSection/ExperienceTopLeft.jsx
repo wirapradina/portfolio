@@ -10,6 +10,10 @@ const ExperienceTopLeft = () => {
         <p className="font-bold text-4xl text-lightGrey">
           PT Hacktivate Teknologi Indonesia
         </p>
+        <p className="text-center text-gray-800">
+        Participated in the MSIB Batch 7 program at "PT Hacktivate Teknologi Indonesia",  
+        gaining hands-on experience in 'ReactJS For Front End Website Developer' 
+      </p>
       </div>
     </div>
   );

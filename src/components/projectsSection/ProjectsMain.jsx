@@ -36,6 +36,14 @@ const projects = [
     link: "https://github.com/wirapradina/sewa-motor",
     demoLink: "https://sewamotormu.web.id/",
   },
+  {
+    name: "Arsip Digital",
+    year: "July2025",
+    align: "right",
+    image: "/images/website-img-5.png",
+    link: "https://github.com/wirapradina",
+    demoLink: "https://arsip.ppwalisongo.id/",
+  },
 ];
 
 const ProjectsMain = () => {

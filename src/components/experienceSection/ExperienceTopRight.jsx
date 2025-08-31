@@ -1,13 +1,17 @@
 const ExperienceTopRight = () => {
   return (
-    <div className="xl:w-[25%] lg:w-[30%] border border-lightBrown p-4 rounded-xl">
-      <p className="text-center text-gray-900">
-          React Front-End Developer   
-        </p> <br></br>
-      <p className="text-center text-gray-800">
-        Participated in the MSIB Batch 7 program at "PT Hacktivate Teknologi Indonesia",  
-        gaining hands-on experience in 'ReactJS For Front End Website Developer' and working on real-world projects.
+    <div className="flex flex-col gap-6 w-[300px]">
+      <div className="flex flex-col items-center text-center gap-4">
+        <h3 className="text-orange font-bold uppercase text-2xl">
+          MAGANG
+        </h3>
+        <p className="font-bold text-4xl text-lightGrey">
+          Wali Songo Islamic Boarding School
+        </p>
+        <p className="text-center text-gray-800">
+        Working on the digital archive system website for the Wali Songo Ngabar Islamic Boarding School
       </p>
+      </div>
     </div>
   );
 };

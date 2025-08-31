@@ -8,7 +8,7 @@ const experiences = [
     job: "React Front-End Developer",
     jobLink: "https://drive.google.com/file/d/1M5DU-pNa5SzAbiyIZDJeeozAna7ZxF8d/view",
     company: "Shop-finity",
-    companyLink: "https://drive.google.com/file/d/1M5DU-pNa5SzAbiyIZDJeeozAna7ZxF8d/view",
+    companyLink: "https://shop-finity.vercel.app/",
     date: "MSIB-7 (2024)",
     responsibilities: [
       "Developed an E-Commerce Customer Side application.",
@@ -17,27 +17,27 @@ const experiences = [
     ],
   },
   {
-    job: "Practicum Assistant",
-    jobLink: "https://forumasisten.or.id/sertifikat/711500119f3788c3c0/show",
-    company: "Sistem Manajemen Basis Data Lanjut",
-    companyLink: "https://forumasisten.or.id/sertifikat/711500119f3788c3c0/show",
-    date: "2024",
+    job: "Independent Internship",
+    jobLink: "https://drive.google.com/file/d/1FOV6TrQdYD2eP721qWg2059qkM5DVfRe/view?usp=sharing",
+    company: "Sistem Arsip Digital",
+    companyLink: "https://arsip.ppwalisongo.id/",
+    date: "2025",
     responsibilities: [
-      "Assisting students in advanced database management concepts.",
-      "Guiding students in SQL queries and database optimization.",
-      "Supporting students in advanced database management practice.",
+      "Designed user interface prototypes for the application.",
+      "Developed the admin user interface into the front-end.",
+      "Developed  the staff user interface into the front-end.",
     ],
   },
   {
     job: "Practicum Assistant",
-    jobLink: "https://forumasisten.or.id/sertifikat/723155911c177d33336/show",
-    company: "Pengantar Teknologi Informasi",
-    companyLink: "https://forumasisten.or.id/sertifikat/723155911c177d33336/show",
-    date: "2024",
+    jobLink: "https://drive.google.com/drive/folders/1sGUJ-qBzKvCgcSeYBcYE27DZjl9fOmtz?usp=sharing",
+    company: "Information Systems Study Program",
+    companyLink: "https://drive.google.com/drive/folders/1sGUJ-qBzKvCgcSeYBcYE27DZjl9fOmtz?usp=sharing",
+    date: "2024-2025",
     responsibilities: [
-      "Assisting students in understanding basic programming concepts.",
-      "Assisting students in understanding basic database concepts.",
-      "Helping students grasp fundamental information technology concepts.",
+      "Assisted in delivering and explaining practical course materials.",
+      "Guided students during lab sessions to complete exercises and projects.",
+      "Assisted in problem-solving during practice sessions.",
     ],
   },
 ];
@@ -48,7 +48,7 @@ const AllExperiences = () => {
       {experiences.map((experience, index) => (
         <div key={index} className="flex items-center">
           <SingleExperience experience={experience} />
-          {index < experiences.length - 1 && ( 
+          {index < experiences.length - 1 && (
             <motion.div
               variants={fadeIn("right", 0)}
               initial="hidden"
