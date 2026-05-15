@@ -1,1 +1,1 @@
-view : https://wira2687.vercel.app/
+view portofolio: https://wirapradinaporto.vercel.app/
