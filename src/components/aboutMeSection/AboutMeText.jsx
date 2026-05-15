@@ -5,8 +5,7 @@ const AboutMeText = () => {
     <div className="flex flex-col md:items-start sm:items-center md:text-left sm:text-center">
       <h2 className="text-6xl text-cyan mb-10">About Me</h2>
       <p>
-      I am Wira, an Information Systems undergraduate student at Universitas Amikom Yogyakarta, with expertise in web development using HTML, PHP, MySQL, and React. I have experience in C++ and JavaScript and am accustomed to working on technology-based projects that enhance my problem-solving skills.
-      I am highly curious, quick to adapt to new technologies, and possess strong communication and collaboration skills.
+      I'm Wira, a Bachelor of Information Systems graduate from Amikom University, Yogyakarta, with expertise in web development using HTML, PHP, React, JavaScript, and MySQL database management. I have strong organizational experience, am adaptable, and am ready to develop a career in information technology.
       </p>
       <button className="border border-orange rounded-full py-2 px-4 text-lg flex gap-2 items-center mt-10 hover:bg-orange transition-all duration-500 cursor-pointer md:self-start sm:self-center">
         <Link

@@ -1,10 +1,9 @@
 import SingleSkill from "./SingleSkill";
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
-import { SiBootstrap, SiPhp, SiGit  } from "react-icons/si"; 
+import { SiBootstrap, SiPhp, SiGit, SiFigma } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io";
 import { FaReact } from "react-icons/fa";
-import { SiRedux } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
@@ -31,8 +30,8 @@ const skills = [
     icon: FaReact,
   },
   {
-    skill: "Redux",
-    icon: SiRedux,
+    skill: "Figma",
+    icon: SiFigma,
   },
   {
     skill: "TailwindCSS",

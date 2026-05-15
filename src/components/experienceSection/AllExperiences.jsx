@@ -5,18 +5,6 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const experiences = [
   {
-    job: "React Front-End Developer",
-    jobLink: "https://drive.google.com/file/d/1M5DU-pNa5SzAbiyIZDJeeozAna7ZxF8d/view",
-    company: "Shop-finity",
-    companyLink: "https://shop-finity.vercel.app/",
-    date: "MSIB-7 (2024)",
-    responsibilities: [
-      "Developed an E-Commerce Customer Side application.",
-      "Utilized Redux for state management in storing product data.",
-      "Integrated Fake Store API to retrieve product information.",
-    ],
-  },
-  {
     job: "Independent Internship",
     jobLink: "https://drive.google.com/file/d/1FOV6TrQdYD2eP721qWg2059qkM5DVfRe/view?usp=sharing",
     company: "Sistem Arsip Digital",
@@ -40,6 +28,19 @@ const experiences = [
       "Assisted in problem-solving during practice sessions.",
     ],
   },
+  {
+    job: "React Front-End Developer",
+    jobLink: "https://drive.google.com/file/d/1M5DU-pNa5SzAbiyIZDJeeozAna7ZxF8d/view",
+    company: "Shop-finity",
+    companyLink: "https://shop-finity.vercel.app/",
+    date: "MSIB-7 (2024)",
+    responsibilities: [
+      "Developed an E-Commerce Customer Side application.",
+      "Utilized Redux for state management in storing product data.",
+      "Integrated Fake Store API to retrieve product information.",
+    ],
+  },
+  
 ];
 
 const AllExperiences = () => {

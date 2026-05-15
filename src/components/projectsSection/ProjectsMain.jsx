@@ -5,28 +5,12 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const projects = [
   {
-    name: "Marketplace",
-    year: "Jul2024",
+    name: "Arsip Digital",
+    year: "July2025",
     align: "right",
-    image: "/images/website-img-1.jpg",
-    link: "https://github.com/wirapradina/DB-marketplace.git",
-    demoLink: "https://github.com/wirapradina/DB-marketplace.git",
-  },
-  {
-    name: "Movie App",
-    year: "Dec2024",
-    align: "left",
-    image: "/images/website-img-2.jpg",
-    link: "https://github.com/wirapradina/Assignment6-movie-app.git",
-    demoLink: "https://movie-app-mu-lac.vercel.app/",
-  },
-  {
-    name: "Shop-finity",
-    year: "Dec2024",
-    align: "right",
-    image: "/images/website-img-3.jpg",
-    link: "https://github.com/wirapradina/CapstoneProject_Shop-Finity.git/",
-    demoLink: "https://shop-finity.vercel.app",
+    image: "/images/website-img-5.png",
+    link: "https://github.com/sistem-arsip/project-main",
+    demoLink: "https://arsip.ppwalisongo.id/",
   },
   {
     name: "Sewa Motor",
@@ -37,13 +21,30 @@ const projects = [
     demoLink: "https://sewamotormu.web.id/",
   },
   {
-    name: "Arsip Digital",
-    year: "July2025",
+    name: "Shop-finity",
+    year: "Dec2024",
     align: "right",
-    image: "/images/website-img-5.png",
-    link: "https://github.com/sistem-arsip/project-main",
-    demoLink: "https://arsip.ppwalisongo.id/",
+    image: "/images/website-img-3.jpg",
+    link: "https://github.com/wirapradina/CapstoneProject_Shop-Finity.git/",
+    demoLink: "https://shop-finity.vercel.app",
   },
+  {
+    name: "Movie App",
+    year: "Dec2024",
+    align: "left",
+    image: "/images/website-img-2.jpg",
+    link: "https://github.com/wirapradina/Assignment6-movie-app.git",
+    demoLink: "https://movie-app-mu-lac.vercel.app/",
+  },
+  {
+    name: "Marketplace",
+    year: "Jul2024",
+    align: "right",
+    image: "/images/website-img-1.jpg",
+    link: "https://github.com/wirapradina/DB-marketplace.git",
+    demoLink: "https://github.com/wirapradina/DB-marketplace.git",
+  },
+  
 ];
 
 const ProjectsMain = () => {
